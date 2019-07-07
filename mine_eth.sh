@@ -3,7 +3,7 @@
 # Change the following address to your ETH addr.
 ADDRESS=0xBE73a1455694c7F5a2e599f56e3DFCf38251467E
 
-USERNAME=$ADDRESS.w
+USERNAME=$ADDRESS.w$WORKER_ID
 POOL=eth-us-west1.nanopool.org:9999
 # Change SCHEME according to your POOL. For example:
 # ethash:     Ethermine, Nanopool
