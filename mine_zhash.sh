@@ -3,7 +3,7 @@
 # Change the following address to your Zhash addr.
 ADDRESS=GXRqRvbrc2ALe69gf88T5Y9ULTLBbYf3Ky
 
-USERNAME=$ADDRESS.w
+USERNAME=$ADDRESS.w$WORKER_ID
 #POOL=US.pool.gold:3050
 POOL=us-btg.2miners.com:4040
 SCHEME=zhash
