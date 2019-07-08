@@ -1,0 +1,6 @@
+apt-get install -y git wget vim
+[ ! -d bminer ] && git clone https://github.com/samhiatt/bminer.git
+cd bminer
+#WORKER_ID=1070_2x_354791 ./mine_zhash.sh 
+#./bminer -uri cuckatoo31://3C39Maj8idfsZb6Fs5ti66Ng4b5wahXWjF.w353277_1x1080ti@grincuckatoo31.usa.nicehash.com:3372
+WORKER_ID=`cat ~/.vast_containerlabel | sed 's/\w\.//'` ./mine_beam_nicehash.sh
