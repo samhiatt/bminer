@@ -18,4 +18,4 @@ USERNAME_2=$ADDRESS_2.w
 POOL_2=dcr.coinmine.pl:2222
 SCHEME_2=blake14r
 
-./bminer -uri $SCHEME://$USERNAME@$POOL -uri2 $SCHEME_2://$USERNAME_2@$POOL_2 -api 127.0.0.1:1880 >> eth_dcr_mining.log 2>&1
+./bminer -uri $SCHEME://$USERNAME@$POOL -uri2 $SCHEME_2://$USERNAME_2@$POOL_2 -api 127.0.0.1:1880 

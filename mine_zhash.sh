@@ -8,4 +8,4 @@ USERNAME=$ADDRESS.w$WORKER_ID
 POOL=us-btg.2miners.com:4040
 SCHEME=zhash
 
-./bminer -uri $SCHEME://$USERNAME@$POOL -api 127.0.0.1:1880  >> zhash_mining.log 2>&1 
+./bminer -uri $SCHEME://$USERNAME@$POOL -api 127.0.0.1:1880  
