@@ -11,4 +11,4 @@ POOL=eth-us-west1.nanopool.org:9999
 # ethstratum: BTC.com, Miningpoolhub
 SCHEME=ethash
 
-./bminer -uri $SCHEME://$USERNAME@$POOL -api 127.0.0.1:1880
+./bminer -uri $SCHEME://$USERNAME@$POOL -api 127.0.0.1:1880 >> eth_mining.log 2>&1
